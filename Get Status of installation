@@ -1,0 +1,7 @@
+#Status of installation
+eksctl version
+kubectl version --client
+terraform -v
+docker -version
+aws --version
+java --version
