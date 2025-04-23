@@ -11,3 +11,7 @@ sudo chmod 777 /var/run/docker.sock
 sleep 10
 docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 sleep 5
+
+
+#If Not Showing Docker PS container then run this command
+docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
